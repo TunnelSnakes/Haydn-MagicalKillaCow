@@ -1,0 +1,121 @@
+/* FONTS
+
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-family:'bebas_neueregular'; }
+
+body {
+	background-image:url(../../images/tf2-images/background.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header-container {
+	width:100%;
+	height:85px;
+	position:relative;
+	background:rgba(255,255,255,0.5);
+}
+
+.container {
+	width:1220px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+.jumbo-box {
+	width:100%;
+	position:relative;
+	height:400px;
+}
+
+.header-container h1 {
+	font-size:5em;
+	letter-spacing:-5px;
+	font-weight:normal;
+	color:#fff;
+	text-shadow:0 1px 2px rgba(0,0,0,0.50);
+	position:relative;
+	left:15px;
+}
+
+.soldier-circle {
+	background:url(../../images/tf2-images/soldier-far.jpg);
+	height:150px;
+	width:150px;
+	border-radius:75px;
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	top:10px;
+}
+
+.jumbo-box small {
+	font-weight:normal;
+	color:#fff;
+	position:absolute;
+	left:165px;
+	font-size:24px;
+	text-shadow:0 1px 2px rgba(0,0,0,0.50);
+}
+
+.jumbo-box video {
+	position:absolute;
+	margin:auto;
+	width:750px;
+	margin-left:-375px;
+	left:50%;
+	top:100px;
+}
+
+.btn-container {
+	position:relative;
+	bottom:107px;
+}
+
+.mkc-btn {
+	height:55px;
+	top:15px;
+	width:175px;
+	background:-moz-linear-gradient(#B4CDCD,#79CDCD);
+	position:relative;
+	display:inline-block;
+	border-radius:5px;
+	text-align:center;
+	box-shadow:0 3px 0 #008080, inset 0 1px 0 #E0EEEE;
+	color:#fff;
+	text-shadow:0 1px 0 #008080;
+	font-weight:normal;
+	font-size:22px;
+	line-height:55px;
+	font-family:'bebas_neueregular';
+}
+
+.mkc-btn:hover {
+	background:-moz-linear-gradient(#B4dede,#79CDCD);
+}
+
+.mkc-btn:active {
+	top:17px;
+	box-shadow:0 1px 0 #008080, inset 0 1px 0 #E0EEEE;
+}
+/* FLOATS */
+
+.fl-r { float:right; }
+
+.fl-l { float:left; }
+
+.cl-l { clear:left; }
+
+.cl-r { clear:right; }
+
+.cl-b { clear:both; }
