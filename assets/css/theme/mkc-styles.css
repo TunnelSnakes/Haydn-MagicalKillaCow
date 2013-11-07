@@ -18,6 +18,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+a {
+	outline:none !important;
+	text-decoration:none !important;
+}
+
 .header-container {
 	width:100%;
 	height:85px;
@@ -48,6 +53,10 @@ body {
 	left:15px;
 }
 
+.header-container h1 a {
+	color:#fff;
+}
+
 .soldier-circle {
 	background:url(../../images/tf2-images/soldier-far.jpg);
 	height:150px;
@@ -68,13 +77,14 @@ body {
 	text-shadow:0 1px 2px rgba(0,0,0,0.50);
 }
 
-.jumbo-box video {
+.jumbo-box iframe {
 	position:absolute;
 	margin:auto;
-	width:750px;
-	margin-left:-375px;
+	width:720px;
+	height:480px;
+	margin-left:-360px;
 	left:50%;
-	top:100px;
+	top:50px;
 }
 
 .btn-container {
@@ -105,9 +115,24 @@ body {
 }
 
 .mkc-btn:active {
-	top:17px;
-	box-shadow:0 1px 0 #008080, inset 0 1px 0 #E0EEEE;
+	top:16px;
+	box-shadow:0 2px 0 #008080, inset 0 1px 0 #E0EEEE;
 }
+
+.about-container {
+	background:rgba(255,255,255,0.5);
+	position:relative;
+	top:40px;
+	width:870px;
+	padding:10px;
+	color:#fff;
+	text-shadow:0 1px 0px rgb(0,0,0);
+}
+
+.about-container h2, .about-container p {
+	width:870px;
+}
+
 /* FLOATS */
 
 .fl-r { float:right; }
