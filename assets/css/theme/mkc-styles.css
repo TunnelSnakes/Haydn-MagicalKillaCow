@@ -19,15 +19,15 @@ body {
 }
 
 a {
-	outline:none !important;
-	text-decoration:none !important;
+	outline:none;
+	text-decoration:none;
 }
 
 .header-container {
 	width:100%;
 	height:85px;
 	position:relative;
-	background:rgba(255,255,255,0.5);
+	background-color:rgba(255,255,255,0.5);
 }
 
 .container {
@@ -58,7 +58,7 @@ a {
 }
 
 .soldier-circle {
-	background:url(../../images/tf2-images/soldier-far.jpg);
+	background-image:url(../../images/tf2-images/soldier-far.jpg);
 	height:150px;
 	width:150px;
 	border-radius:75px;
@@ -96,12 +96,17 @@ a {
 	height:55px;
 	top:15px;
 	width:175px;
+	background:#b4cdcd;
+	background:-ms-linear-gradient(#B4CDCD,#79CDCD);
 	background:-moz-linear-gradient(#B4CDCD,#79CDCD);
+	background:-webkit-linear-gradient(#B4CDCD,#79CDCD);
 	position:relative;
 	display:inline-block;
 	border-radius:5px;
 	text-align:center;
 	box-shadow:0 3px 0 #008080, inset 0 1px 0 #E0EEEE;
+	-moz-box-shadow:0 3px 0 #008080, inset 0 1px 0 #E0EEEE;
+	-webkit-box-shadow:0 3px 0 #008080, inset 0 1px 0 #E0EEEE;
 	color:#fff;
 	text-shadow:0 1px 0 #008080;
 	font-weight:normal;
@@ -111,16 +116,21 @@ a {
 }
 
 .mkc-btn:hover {
+	background:#b4dede;
+	background:-ms-linear-gradient(#B4dede,#79CDCD);
 	background:-moz-linear-gradient(#B4dede,#79CDCD);
+	background:-webkit-linear-gradient(#B4dede,#79CDCD);
 }
 
 .mkc-btn:active {
 	top:16px;
 	box-shadow:0 2px 0 #008080, inset 0 1px 0 #E0EEEE;
+	-moz-box-shadow:0 2px 0 #008080, inset 0 1px 0 #E0EEEE;
+	-webkit-box-shadow:0 2px 0 #008080, inset 0 1px 0 #E0EEEE;
 }
 
 .about-container {
-	background:rgba(255,255,255,0.5);
+	background-color:rgba(255,255,255,0.5);
 	position:relative;
 	top:40px;
 	width:870px;
